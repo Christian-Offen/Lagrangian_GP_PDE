@@ -1,0 +1,42 @@
+Start 2024-06-05_11:02:51
+
+Compute training data 2024-06-05_11:02:51
+Size of linear problem 4203x4203
+
+Computation of posterior process completed 2024-06-05_11:12:52
+
+Normalisation: 
+Ld_ml(basept) 0.9999999999809096, conj_local_ml(baseStencil) [0.9999999999241657 1.0000000000023679]
+Max el(Ld_ml,data) 3.8009372038683154e-10
+Max var_el(Ld_ml,data) 2.0872192862952943e-14
+
+Recovery training data tests 2024-06-05_11:54:49
+
+Call to PredictCompare: Predict motions, compute standard deviation, and compare to reference
+RecoverTrainingData_
+_2024-06-05_11:54:49
+Training data recovery max/l2 error (1.1162600371816822e-8, 1.0959928688018264e-9)
+
+Predict solution unseen initial data 2024-06-05_12:55:39
+
+Call to PredictCompare: Predict motions, compute standard deviation, and compare to reference
+predict_unseen_
+_2024-06-05_12:55:39
+max/l2 error (0.02903325663971379, 0.0038644093690129297)
+
+Travelling wave test 2024-06-05_13:45:07
+true TW fulfills DEL(L_ml) with max error of 0.07043551652406464
+
+Call to PredictCompare: Predict motions, compute standard deviation, and compare to reference
+predict_TW_
+_2024-06-05_13:46:03
+Consistency TW with true model (sanity check): 2.275957200481571e-15
+max/l2 error (225233.35698540707, 9453.90240641875)
+
+Travelling wave test long term prediction 2024-06-05_17:27:12
+
+Call to PredictCompare: Predict motions, compute standard deviation, and compare to reference
+predict_TW_long_
+_2024-06-05_17:27:12
+max/l2 error (7.720715334210457e7, 7.0767751983181145e6)
+End of script 2024-06-05_22:50:40

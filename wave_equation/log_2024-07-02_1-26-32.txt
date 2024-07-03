@@ -1,0 +1,51 @@
+Start: 2024-07-02_15:26:32
+
+
+Compute training data
+Size linear problem 762x762
+Define posterior process Ld and variance operators 2024-07-02_15:26:52
+2024-07-02_15:28:17
+
+ 
+ Consistency tests for learned model 
+
+Normalisation: 
+Ld_ml(basept) 0.9999999987837951, conj_local_ml(baseStencil) [1.0000000449547013;;]
+Max var_el(L_ml,data) 9.936496070395151e-15
+Max el(Ld_ml,data) 9.065386286088994e-8
+Condition linear problem in posterior evaluation 5.398146313039733e20
+Max. symmetry error Theta: 1.1102230246251565e-16
+Smallest eigenvalue Theta: -2.759058479694684e-15
+345 numerically negative eigenvalues
+
+ 
+ recovery training data tests 2024-07-02_15:30:50
+
+max./l2 error: 0.00015712091318831334 / 5.73184379003623e-5
+Max variance: 1.6158185900394528e-12
+Min variance: -9.43689570931383e-15
+
+ 
+ Predict solution to field theory from unseen initial data 2024-07-02_15:33:47
+
+Progress: 100%|█████████████████████████████████████████████████████████████████████████████████████████| Time: 0:04:11
+Progress: 100%|█████████████████████████████████████████████████████████████████████████████████████████| Time: 0:00:01
+max./l2 error: 0.0788759134360868 / 0.022115466944251896
+max variance: 1.111006624809896e-6
+variance at random sample in training data regime (averaged): 0.00047946655111782754
+
+ 
+ travelling wave tests 2024-07-02_15:38:34
+
+consistency with DEL(Ld_ref): 2.2168933355715126e-12
+consistency with DEL(Ld_ml): 0.00024632602741364584
+
+ 
+ predict solition initialising from true travelling wave 2024-07-02_15:39:13
+
+Progress: 100%|█████████████████████████████████████████████████████████████████████████████████████████| Time: 0:02:39
+max./l2 error: 0.4978929405700149 / 0.066753402231902
+max. standard deviation: 0.016825557086412805
+variance at random sample in regime of the TW (averaged): 0.002179843016209774
+end of script 2024-07-02_15:42:26
+
