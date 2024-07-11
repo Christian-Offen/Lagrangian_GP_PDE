@@ -1,5 +1,6 @@
 # Lagrangian_GP_PDE
-Accompanying sourcecode to article "Machine learning of discrete field theories with guaranteed convergence and uncertainty quantification"
+Accompanying sourcecode to article
+Christian Offen, "Machine learning of discrete field theories with guaranteed convergence and uncertainty quantification" (2024), arXiv Preprint <a href="https://arxiv.org/abs/2407.07642">arXiv:2407.07642</a>
 
 Please refer to <a href="https://ris.uni-paderborn.de/record/55159">LibCat page</a> or the author's <a href="https://arxiv.org/a/offen_c_1.html">arXiv author page</a> for the manuscript.
 
